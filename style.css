@@ -9,7 +9,7 @@
       height: auto;
       color: #000;
       background: #ffffff;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: nowrap;
       align-content: center;
       justify-content: center;
