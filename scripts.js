@@ -5,22 +5,7 @@
     const encryptedText = document.querySelector('#encryptedText');
 
     function selectComplex() {
-      switch (lvlComplex.value) {
-        case '0':
-          viewNumComplex.innerHTML = 'Nivel de Complexidade [' + lvlComplex.value + ']';
-          break;
-
-        case '1':
-          viewNumComplex.innerHTML = 'Nivel de Complexidade  [' + lvlComplex.value + ']';
-          break;
-
-        case '2':
-          viewNumComplex.innerHTML = 'Nivel de Complexidade  [' + lvlComplex.value + ']';
-          break;
-
-        default:
-          break;
-      }
+        viewNumComplex.innerHTML = 'Nivel de Complexidade [' + lvlComplex.value + ']';
     }
 
     async function ProcessText(type) {
