@@ -7,15 +7,15 @@
     function selectComplex() {
       switch (lvlComplex.value) {
         case '0':
-          viewNumComplex.innerHTML = 'Nivel [' + lvlComplex.value + '] - Fácil';
+          viewNumComplex.innerHTML = 'Nivel de Complexidade [' + lvlComplex.value + ']';
           break;
 
         case '1':
-          viewNumComplex.innerHTML = 'Nivel [' + lvlComplex.value + '] - Mediano';
+          viewNumComplex.innerHTML = 'Nivel de Complexidade  [' + lvlComplex.value + ']';
           break;
 
         case '2':
-          viewNumComplex.innerHTML = 'Nivel [' + lvlComplex.value + '] - Difícil';
+          viewNumComplex.innerHTML = 'Nivel de Complexidade  [' + lvlComplex.value + ']';
           break;
 
         default:
